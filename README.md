@@ -6,7 +6,7 @@ Python based GUI automation tool to do tedious repetitive tasks automatically, u
 ![](Screenshots/automating_tool_png.PNG)
 
 ## GUIDE
-In the path Enter the coordinates to click, to assist you with this you can find the coordinates using this [tool](www.google.com).
+In the path Enter the coordinates to click, to assist you with this you can find the coordinates using [this tool](https://github.com/DineshNeupane/GUI-Automation-Tool-GAT/tree/master/Coordinate%20Finder).
 ### Forward lag: 
 FOrward lag is how long to wait after a click. Default is 5 seconds, you can leave it blank as well.
 ### Iteration Interval: 
