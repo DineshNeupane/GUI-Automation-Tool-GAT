@@ -7,45 +7,57 @@
   "questions": [
     {
       "question_type": "Radioboxes",
-      "question_title": "What is your age group ?",
+      "question_title": "Do you have enough stock of food items at your home ?",
       "description": "",
       "required": true,
       "random_choices": false,
       "choices": [
-        "less than 20",
-        "20-30",
-        "30-40",
-        "40-50",
-        "50+"
+        "Yes",
+        "No"
       ]
     },
     {
       "question_type": "Radioboxes",
-      "question_title": "GENDER ?",
+      "question_title": "Do you have the required medicines for fever, cold and respiratory problem?",
       "description": "",
       "required": true,
       "random_choices": true,
       "choices": [
-        "male",
-        "female"
+        "Yes",
+        "No"
       ]
     },
+{
+      "question_type": "Radioboxes",
+      "question_title": "Do you have access to ATM or bank?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "Yes",
+        "No"
+      ]
+    },
+
     {
       "question_type": "Checkboxes",
-      "question_title": "What is the condition of food market in your locality?",
+      "question_title": "What are the TOP THREE biggest challenges you are currently facing while working remotely? [Select all that apply]",
       "description": "",
       "required": false,
       "random_choices": false,
       "choices": [
-        "Excellent",
-        "Good",
-        "Moderate",
-        "Poor"
+        "Internet Connectivity",
+        "Communication with coworkers is harder",
+        "Keeping a regular schedule",
+        "Childcare",
+        "General anxiety about the impact of coronavirus on my life",
+        "Too many distractions at home",
+        "Social isolation"
       ]
     },
     {
       "question_type": "String",
-      "question_title": "PLease describe how COVID-19 has affected you (less than 20 words)",
+      "question_title": "Please describe what else do you require from your organization to do your job well while working remotely [Write “nothing” if you have no comments]",
       "description": "",
       "required": true
     },
