@@ -35,33 +35,29 @@
       "question_title": "What is the condition of food market in your locality?",
       "description": "",
       "required": false,
-      "random_choices": true,
+      "random_choices": false,
       "choices": [
         "Excellent",
         "Good",
         "Moderate",
-        "xyz",
-        "C#",
-        "SQL",
-        "Python",
-        "Node.js"
+        "Poor"
       ]
     },
     {
       "question_type": "String",
-      "question_title": "What is your desktop operating system ?",
+      "question_title": "PLease describe how COVID-19 has affected you (less than 20 words)",
       "description": "",
       "required": true
     },
     {
-      "question_title": "How much are you paid ?",
-      "description": "[per year]",
+      "question_title": "What is your monthly income?",
+      "description": "[monthly income]",
       "required": true,
       "question_type": "Number"
     },
     {
       "question_type": "StringMultiline",
-      "question_title": "Why do you like your job as a developer ?",
+      "question_title": "How much are you familier with preventive measures of COVID?",
       "description": "",
       "required": false,
       "number_of_lines": 2
