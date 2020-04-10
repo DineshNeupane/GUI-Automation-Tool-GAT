@@ -60,19 +60,6 @@
       "question_title": "Please describe what else do you require from your organization to do your job well while working remotely [Write “nothing” if you have no comments]",
       "description": "",
       "required": true
-    },
-    {
-      "question_title": "What is your monthly income?",
-      "description": "[monthly income]",
-      "required": true,
-      "question_type": "Number"
-    },
-    {
-      "question_type": "StringMultiline",
-      "question_title": "How much are you familier with preventive measures of COVID?",
-      "description": "",
-      "required": false,
-      "number_of_lines": 2
     }
   ]
 }
