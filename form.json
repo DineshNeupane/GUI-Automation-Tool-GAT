@@ -7,59 +7,38 @@
   "questions": [
     {
       "question_type": "Radioboxes",
-      "question_title": "Do you have enough stock of food items at your home ?",
+      "question_title": "On a scale of 1 (worst) to 5 (best), how do you rate the app?",
       "description": "",
       "required": true,
       "random_choices": false,
       "choices": [
-        "Yes",
-        "No"
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
       ]
     },
-    {
-      "question_type": "Radioboxes",
-      "question_title": "Do you have the required medicines for fever, cold and respiratory problem?",
-      "description": "",
-      "required": true,
-      "random_choices": true,
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-{
-      "question_type": "Radioboxes",
-      "question_title": "Do you have access to ATM or bank?",
-      "description": "",
-      "required": true,
-      "random_choices": false,
-      "choices": [
-        "Yes",
-        "No"
-      ]
-    },
-
-    {
+     {
       "question_type": "Checkboxes",
-      "question_title": "What are the TOP THREE biggest challenges you are currently facing while working remotely? [Select all that apply]",
+      "question_title": "What do you like about the app?  [Select all that apply]",
       "description": "",
-      "required": false,
+      "required": true,
       "random_choices": false,
       "choices": [
-        "Internet Connectivity",
-        "Communication with coworkers is harder",
-        "Keeping a regular schedule",
-        "Childcare",
-        "General anxiety about the impact of coronavirus on my life",
-        "Too many distractions at home",
-        "Social isolation"
+        "App Design",
+        "Usability",
+        "Information available in the app"
       ]
     },
     {
       "question_type": "String",
-      "question_title": "Please describe what else do you require from your organization to do your job well while working remotely [Write “nothing” if you have no comments]",
+      "question_title": "How would you like us to improve?",
       "description": "",
       "required": true
     }
-  ]
+     ]
 }
+
+
+
